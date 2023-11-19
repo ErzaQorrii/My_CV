@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+}
+.full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left
+{
+    padding: 20px;
+    position: initial;
+    background: rgb(250, 193, 245);
+
+}
+img
+{
+    width: 300px;
+    border-radius: 500px;
+}
+.main_content
+{
+    padding: 20px;
+    position: initial;
+    width: 1000px;
+    background: rgb(234,175,255);
+background: linear-gradient(90deg, rgba(234,175,255,1) 23%, rgba(255,108,242,1) 95%, rgba(255,35,206,1) 100%);
+}
