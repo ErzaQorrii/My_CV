@@ -16,6 +16,8 @@ body
     flex-direction: row;
     width: 100%;
     height: 100%;
+    
+
 }
 .left
 {width: 27%;
@@ -25,7 +27,13 @@ body
     flex-direction: column;
 
 }
-/* page[size="A4"]
+.left a
+{
+    color: #aeaeae;
+    text-decoration: none;
+}
+
+ page[size="A4"]
 {
     width: 21cm;
     height: 29.7cm;
@@ -34,11 +42,17 @@ body
 {
     size: 21cm 29.7cm;
     margin: 0mm;
-} */
-img
+} 
+.picture img
 {
     width: 200px;
-    border-radius: 500px;
+    border-radius: 50%;
+    height: 5cm;
+}
+.picture img:hover
+{
+   
+        transform: scale(1.2); 
 }
 .main_content
 {
@@ -46,4 +60,55 @@ img
     padding: 0.7cm;
     background-color:rgb(211, 211, 211)
 }
+.contact,.skills,.language,.hobbies h2
+{
+    font-family: 'Archivo Narrow', sans-serif;
 
+}
+.contact_info {
+  color: #bebebe;
+    ;
+
+}
+.contact,.language,.hobbies h2{
+    color:  #bebebe;
+}
+/* .item {
+    padding-bottom: 0.7cm;
+    padding-top: 0.7cm;
+  }
+  .item h2{
+    margin-top: 0;
+  } */
+  .bottomLineSeparator {
+    border-bottom: 0.05cm solid white;
+  }
+  .info
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     color: #bebebe;
+     
+
+  }
+ .skills h2{
+    color: #bebebe;
+ }
+ .skills,.language
+ {
+    margin-bottom: 1cm;
+ }
+ .main_content h1
+ {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300; 
+    font-size: 1.2cm;
+    transform:scale(1,1.15); 
+    margin-bottom: 0.2cm;
+    margin-top: 0.2cm;
+    text-transform: uppercase;
+ }
+ .title h1
+ {
+font-weight: bold; }
